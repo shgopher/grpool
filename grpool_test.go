@@ -1,7 +1,7 @@
 package grpool
 
 import (
-	"io/ioutil"
+	"io"
 	"log"
 	"runtime"
 	"sync/atomic"
@@ -93,7 +93,7 @@ func BenchmarkPool(b *testing.B) {
 	pool := NewPool(1, 10)
 	defer pool.Release()
 
-	log.SetOutput(ioutil.Discard)
+	log.SetOutput(io.Discard)
 
 	for n := 0; n < b.N; n++ {
 		pool.JobQueue <- func() {

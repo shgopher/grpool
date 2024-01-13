@@ -1,3 +1,13 @@
+/*
+ * @Author: shgopher shgopher@gmail.com
+ * @Date: 2024-01-13 16:56:31
+ * @LastEditors: shgopher shgopher@gmail.com
+ * @LastEditTime: 2024-01-13 17:01:24
+ * @FilePath: /grpool/examples/first.go
+ * @Description:
+ *
+ * Copyright (c) 2024 by shgopher, All Rights Reserved.
+ */
 package grpool
 
 import (
@@ -5,7 +15,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ivpusic/grpool"
+	"github.com/shgopher/grpool"
 )
 
 func first() {

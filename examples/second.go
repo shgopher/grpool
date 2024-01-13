@@ -1,10 +1,20 @@
+/*
+ * @Author: shgopher shgopher@gmail.com
+ * @Date: 2024-01-13 16:56:31
+ * @LastEditors: shgopher shgopher@gmail.com
+ * @LastEditTime: 2024-01-13 17:01:32
+ * @FilePath: /grpool/examples/second.go
+ * @Description:
+ *
+ * Copyright (c) 2024 by shgopher, All Rights Reserved.
+ */
 package grpool
 
 import (
 	"fmt"
 	"runtime"
 
-	"github.com/ivpusic/grpool"
+	"github.com/shgopher/grpool"
 )
 
 func second() {
